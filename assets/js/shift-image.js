@@ -11,3 +11,8 @@ function shiftLogo() {
     }
 
 }
+
+
+function social(){
+    window.location.href = "https://www.instagram.com/shelbytech.com.br/"
+}

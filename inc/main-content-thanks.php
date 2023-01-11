@@ -5,7 +5,7 @@
         <h1> Leads quentes são leads rápidos!</h1>
         <p>obrigado por entrar em contato, retornaremos o mais rápido possível para esclarecer todas as suas dúvidas, enquanto isso que tal:</p>
 
-        <button onclick="openModal()">
+        <button onclick="social()">
             Conhecer nosso trabalho
         </button>
     </div>

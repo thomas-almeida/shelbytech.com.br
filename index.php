@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="//geoip-js.com/js/apis/geoip2/v2.1/geoip2.js" type="text/javascript"></script>
-    <title>Landing Page Ideal</title>
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+    <title>Garanta os Resultados Ideais - Shelby Tech 🔵</title>
 </head>
 
 <body onload="shiftLogo()">
