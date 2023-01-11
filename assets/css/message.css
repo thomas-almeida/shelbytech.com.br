@@ -1,0 +1,29 @@
+.message {
+    background-color: #1e03fb;
+    color: #fff;
+    padding: 10px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+#close-message {
+    margin-left: 15px;
+    cursor: pointer;
+    background-color: #fff;
+    color: #1e03fb;
+    padding: 6px 16px;
+    border-radius: 4px;
+}
+
+
+#close-message-outline {
+    margin-left: 15px;
+    cursor: pointer;
+    background-color: #1e03fb;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 6px 16px;
+    border-radius: 4px;
+}
+

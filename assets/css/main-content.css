@@ -1,0 +1,77 @@
+.main-content-container {
+
+    height: 95vh;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-content-text {
+    padding: -4px 50px;
+}
+
+.main-content-text h1 {
+    font-size: 2.6em;
+    width: 80%;
+}
+
+.main-content-text p {
+    font-size: 1.3em;
+    padding: 25px 0px;
+    font-weight: 500;
+    width: 80%;
+}
+
+.main-content-text button {
+    padding: 20px 15px;
+    border: none;
+    background-color: #1e03fb;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.2em;
+    margin: 10px 0px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+
+
+.main-content-text button:hover {
+    transform: scale(1.1);
+    box-shadow: 10px 8px 5px #5c5c5cf6;
+}
+
+
+.main-content-brand {
+    box-shadow: 10px 8px 5px #5c5c5cea;
+    border-radius: 10px;
+}
+
+.main-content-brand img {
+    width: 600px;
+    border-radius: 10px;
+}
+
+#city {
+    color: #1e03fb;
+}
+
+.tag-container{
+    padding: 10px;
+    margin-bottom: 15px;
+    padding-left: 0px;
+}
+
+.tags{
+    padding: 10px;
+    margin: 10px;
+    margin-left: 0;
+    border: 1px solid #1e03fb;
+    border-radius: 20px;
+}
+
+.blue-destaque{
+    color: #1e03fb;
+}

@@ -1,0 +1,32 @@
+nav {
+    display: flex;
+    justify-content: center;
+    box-shadow: 1px 3px 5px #e5e5e5
+}
+
+nav div {
+    width: 80%;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 15px;
+    font-size: 1.1em;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: #1e03fb;
+}
+
+
+#text-logo {
+    color: #1e03fb !important;
+
+}

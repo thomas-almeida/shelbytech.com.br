@@ -1,0 +1,36 @@
+@media only screen and (min-width: 1366px) {
+
+    .main-content-container {
+        width: 85% !important;
+    }
+
+    nav div {
+        width: 92%;
+    }
+
+}
+
+@media only screen and (min-width: 1378px) {
+
+    .main-content-container {
+        width: 81% !important;
+    }
+
+    nav div {
+        width: 92%;
+    }
+
+}
+
+@media only screen and (min-width: 1920px) {
+
+    .main-content-container {
+        width: 70% !important;
+    }
+
+    nav div {
+        width: 80%;
+    }
+
+
+}
