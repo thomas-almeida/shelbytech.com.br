@@ -1,4 +1,4 @@
-@media only screen and (max-width: 1240px) {
+@media only screen and (max-width: 1280px) {
 
 
 
@@ -50,7 +50,7 @@
 
 
     .main-content-container {
-        height: 100vh;
+        height: auto;
         width: 85%;
         text-align: center;
     }
@@ -61,10 +61,12 @@
 
     .main-content-text p {
         width: 100%;
+        padding: 10px 0px;
     }
 
     .main-content-text button {
         padding: 15px;
+        width: 100%;
     }
 
     .hide-mobile {
@@ -89,6 +91,32 @@
         justify-content: center;
         align-items: center;
         padding-left: 0px;
+    }
+
+    form{
+        flex-wrap: wrap;
+    }
+
+    .main-content-text{
+        width: auto;
+    }
+
+    #logo-nav {
+        margin-top: 25px;
+    }
+
+    .fast-contact-container section{
+        width: 100%;
+    }
+
+    select{
+        width: 100%;
+    }
+
+    input[type="text"]{
+        width: 100%;
+        padding: 5px 0px !important;
+        margin-left: 0px;
     }
 
 }
