@@ -5,11 +5,12 @@
 @import url('media-queries-notebooks.css');
 @import url('message.css');
 @import url('form.css');
+@import url('fonts.css');
 
 *{
     margin: 0;
     padding: 0;
-    font-family: SF Pro Display,SF Pro Icons,AOS Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 
 .container{

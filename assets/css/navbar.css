@@ -1,7 +1,6 @@
 nav {
     display: flex;
     justify-content: center;
-    box-shadow: 1px 3px 5px #e5e5e5
 }
 
 nav div {
@@ -11,6 +10,13 @@ nav div {
 nav ul {
     list-style: none;
     padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img#logo-nav {
+    width: 250px;
 }
 
 nav li {
