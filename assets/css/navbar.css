@@ -37,3 +37,8 @@ a {
     color: #1e03fb !important;
 
 }
+
+ul a:hover {
+    color: #140df2;
+    text-decoration: underline;
+}

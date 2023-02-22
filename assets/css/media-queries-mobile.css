@@ -119,4 +119,13 @@
         margin-left: 0px;
     }
 
+
+    .container-content {
+        width: 90% !important;
+    }
+
+    article p{
+        font-size: 1.3em !important;
+    }
+
 }
