@@ -1,9 +1,18 @@
+@media only screen and (min-width: 1280px) {
+    #mobile-menu {
+        display: none;
+    }
+}
+
+
 @media only screen and (max-width: 1280px) {
 
-
+    #desk-menu {
+        display: none;
+    }
 
     .form-modal-content form {
-     
+
         border-radius: 10px !important;
         box-shadow: 1px 2px 5px #121212;
         background-color: #fff;
@@ -71,7 +80,7 @@
 
     .hide-mobile {
         display: none;
-       
+
     }
 
     nav ul {
@@ -93,11 +102,11 @@
         padding-left: 0px;
     }
 
-    form{
+    form {
         flex-wrap: wrap;
     }
 
-    .main-content-text{
+    .main-content-text {
         width: auto;
     }
 
@@ -105,15 +114,15 @@
         margin-top: 25px;
     }
 
-    .fast-contact-container section{
+    .fast-contact-container section {
         width: 100%;
     }
 
-    select{
+    select {
         width: 100%;
     }
 
-    input[type="text"]{
+    input[type="text"] {
         width: 100%;
         padding: 5px 0px !important;
         margin-left: 0px;
@@ -124,7 +133,7 @@
         width: 90% !important;
     }
 
-    article p{
+    article p {
         font-size: 1.3em !important;
     }
 

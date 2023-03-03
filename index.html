@@ -15,17 +15,59 @@
 
 <body onload="shiftLogo()">
 
-    <include src="inc/navbar.html"></include>
+    <nav>
+        <div>
+            <ul id="desk-menu">
+                <li><a href="../index.html" id="text-logo"><b>Shelby Tech</b></a></li>
+                <li> <a target="_blank" href="https://www.instagram.com/shelbytech.com.br/">Social</a></li>
+                <li><a target="_blank"
+                        href="https://awesome-appeal-0eb.notion.site/Shelb-Tech-6cc7c2471e284359a788a0b830a5c92c">Quem
+                        somos</a></li>
+                <li><a target="_blank" href="/artigos/construindo-em-publico.html">Construindo em público</a></li>
+
+                </li>
+            </ul>
+            <ul id="mobile-menu">
+                <div>
+                    <li><a href="../index.html" id="text-logo"><b>Shelby Tech</b></a></li>
+                    <li id="hamburguer"><i class="fa fa-bars"></i></li>
+                </div>
+                <div class="menu-opt" id="menu-opt">
+                    <li> <a target="_blank" href="https://www.instagram.com/shelbytech.com.br/">Social</a></li>
+                    <li><a target="_blank"
+                            href="https://awesome-appeal-0eb.notion.site/Shelb-Tech-6cc7c2471e284359a788a0b830a5c92c">Quem
+                            somos</a></li>
+                    <li><a target="_blank" href="/artigos/construindo-em-publico.html">Construindo em público</a></li>
+
+                    </li>
+                </div>
+            </ul>
+        </div>
+    </nav>
+
     <include src="inc/message.html"></include>
 
     <div class="container">
-
         <include src="inc/main-content.html"></include>
-
     </div>
 
     <include src="inc/footer.html"></include>
 </body>
 
+<script>
+    var menuOPT = document.getElementById('menu-opt')
+    var hamburguer = document.getElementById('hamburguer')
+    var gm = 0
+
+    hamburguer.addEventListener('click', function () {
+        if (gm == 0) {
+            menuOPT.style.display = 'flex'
+            gm = 1
+        } else if (gm == 1) {
+            menuOPT.style.display = 'none'
+            gm = 0
+        }
+    })
+</script>
 
 </html>

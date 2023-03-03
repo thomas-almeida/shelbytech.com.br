@@ -23,7 +23,7 @@ img#logo-nav {
 nav li {
     display: inline-block;
     margin: 15px;
-    font-size: 1.1em;
+    font-size: 1.2em;
     cursor: pointer;
 }
 
@@ -41,4 +41,21 @@ a {
 ul a:hover {
     color: #140df2;
     text-decoration: underline;
+}
+
+#mobile-menu{
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-opt{
+    width: 100%;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+
+i{
+    color: #140df2;
 }
