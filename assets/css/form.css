@@ -4,7 +4,8 @@
     align-items: center;
     box-shadow: 4px 3px 12px #dbdbdb;
     padding: 10px;
-   
+    padding: 14px;
+    margin-bottom: 100px;
 }
 
 form {

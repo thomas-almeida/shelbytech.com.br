@@ -8,16 +8,26 @@
         width: 92%;
     }
 
+    img#logo-nav {
+        width: 250px;
+        margin-top: 80px;
+    }
+
 }
 
 @media only screen and (min-width: 1378px) {
 
     .main-content-container {
-        width: 81% !important;
+        width: 90% !important;
     }
 
     nav div {
         width: 92%;
+    }
+
+    img#logo-nav {
+        width: 250px;
+        margin-top: 80px;
     }
 
 }
@@ -25,11 +35,17 @@
 @media only screen and (min-width: 1920px) {
 
     .main-content-container {
-        width: 70% !important;
+        width: 85% !important;
     }
+    
 
     nav div {
         width: 80%;
+    }
+
+    img#logo-nav {
+        width: 250px;
+        margin-top: 100px;
     }
 
 

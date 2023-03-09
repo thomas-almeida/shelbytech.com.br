@@ -1,0 +1,49 @@
+.blog-header {
+    padding: 20px;
+    margin: 20px;
+    margin-top: 45px;
+    text-align: left;
+}
+
+.blog-header h1 {
+    font-size: 2em;
+}
+
+.blog-header p{
+    padding: 0px;
+    margin-top: 20px;
+}
+
+.blog-article {
+    width: 450px;
+    margin: 15px;
+    padding: 20px;
+    text-align: left;
+}
+
+.blog-article p{
+    padding: 0;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.blog-article h2{
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.blog-article a{
+    text-align: left;
+}
+
+.blog-article img{
+    height: 300px;
+    width: 100%;
+    margin-bottom: 20px;
+    box-shadow: 4px 4px 10px #adadad;
+    border-radius: 3px;
+}
+
+.flex-form{
+    flex-wrap: wrap;
+}

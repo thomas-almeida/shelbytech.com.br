@@ -7,6 +7,7 @@
 @import url('form.css');
 @import url('fonts.css');
 @import url('artigos.css');
+@import url('blog.css');
 
 *{
     margin: 0;
