@@ -11,6 +11,10 @@
         display: none;
     }
 
+    main-content-text {
+        width: auto;
+    }
+
     .form-modal-content form {
 
         border-radius: 10px !important;
@@ -60,8 +64,17 @@
 
     .main-content-container {
         height: auto;
-        width: 85%;
+        width: auto;
         text-align: center;
+    }
+
+    .blog-article img {
+        height: 150px !important;
+        width: 100%;
+    }
+
+    .blog-article {
+        width: auto !important; 
     }
 
     .main-content-text h1 {
@@ -107,7 +120,11 @@
     }
 
     .main-content-text {
-        width: auto;
+        width: 80%;
+    }
+
+    .personas {
+        flex-wrap: wrap;
     }
 
     #logo-nav {
